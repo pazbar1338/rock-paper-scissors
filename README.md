@@ -1,2 +1,2 @@
 # rock-paper-scissors
-rock-paper-scissors game to be played on the browsers console
+rock-paper-scissors game from the Odin Project to be played on the browsers console
