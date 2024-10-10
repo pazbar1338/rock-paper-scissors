@@ -46,7 +46,7 @@ function playGame() {
         gameEnd();
     }
 
-    function gameEnd (humanscore, computerscore) {
+    function gameEnd () {
         if (humanScore > computerScore) {
             console.log(`Final score is ${humanScore} for the human and ${computerScore} for the computer. The human wins.`)
         }
