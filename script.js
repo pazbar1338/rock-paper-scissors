@@ -34,7 +34,7 @@ function playGame() {
             console.log(`You loose, ${computerChoice} beats ${humanChoice}`);
             computerScore++;
         }
-        else {console.log(`It's a tie! Computer got ${computerChoice} and human chose ${humanChoice}`)};
+        else {console.log(`It's a tie! Computer got ${computerChoice} and you chose ${humanChoice}`)};
         
     }
 
