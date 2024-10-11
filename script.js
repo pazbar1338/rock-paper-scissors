@@ -55,7 +55,7 @@ function playRound(humanChoice, computerChoice) {
         (humanChoice == "rock" && computerChoice == "paper") ||
         (humanChoice == "paper" && computerChoice == "scissors")) {
         computerScore++;
-        currentScoreDiv.textContent = `You loose, ${computerChoice} beats ${humanChoice}. Current score is: ${humanScore} (you) vs ${computerScore} (computer)`;
+        currentScoreDiv.textContent = `You lose, ${computerChoice} beats ${humanChoice}. Current score is: ${humanScore} (you) vs ${computerScore} (computer)`;
         
     } else {
         currentScoreDiv.textContent = `It's a tie! Computer got ${computerChoice} and you chose ${humanChoice}. Current score is: ${humanScore} (you) vs ${computerScore} (computer)`;
